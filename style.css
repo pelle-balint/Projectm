@@ -1,0 +1,5 @@
+a:hover {
+    color: black !important;
+    background-color: whitesmoke;
+    transition-duration: 1s;
+}
