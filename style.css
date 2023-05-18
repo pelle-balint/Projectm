@@ -1,8 +1,8 @@
-a{
+nav a{
     padding: 5px;
     border-radius: 5px;
 }
-a:hover {
+nav a:hover {
     color: black !important;
     background-color: whitesmoke;
     transition-duration: 0.5s;
@@ -27,4 +27,32 @@ p{
 .float-right{
     float: right;
     padding: 10px 0px 0px 20px;
+}
+img:hover{
+    filter: saturate(120%);
+    transition-duration: 0.5s;
+}
+.review-box{
+    background-color: rgb(240,240,240);
+    margin: 20px;
+    vertical-align: middle;
+    padding: 10px;
+}
+.rating{
+    float: right;
+}
+.review{
+    font-size: large;
+}
+button{
+    padding: 20px;
+}
+#scratch-download{
+    background-color: #f9aa37;
+    color: white;
+    font-family: cursive;
+}
+#scratch-download:hover{
+    background-color: #c0862e;
+    transition-duration: 0.2s;
 }
