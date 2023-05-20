@@ -69,3 +69,9 @@ button{
 .open {
     vertical-align: middle;
 }
+.video {
+    float: right;
+    padding: 7.5px 0px 0px 20px;
+    width: 500px;
+    height: 275px;
+}
