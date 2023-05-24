@@ -28,8 +28,11 @@ p{
     float: right;
     padding: 10px 0px 0px 20px;
 }
+img{
+    filter: saturate(80%);
+}
 img:hover{
-    filter: saturate(120%);
+    filter: saturate(150%);
     transition-duration: 0.5s;
 }
 .review-box{
