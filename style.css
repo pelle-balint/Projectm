@@ -34,6 +34,7 @@ img{
 img:hover{
     filter: saturate(150%);
     transition-duration: 0.5s;
+    cursor: zoom-in;
 }
 .review-box{
     background-color: rgb(240,240,240);
