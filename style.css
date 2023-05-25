@@ -79,3 +79,7 @@ button{
     width: 500px;
     height: 275px;
 }
+.title {
+    text-decoration: black underline solid;
+    font-weight: bolder;
+}
