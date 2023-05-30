@@ -18,8 +18,9 @@ nav a:hover {
 }
 
 main>div{
-    background-color: rgba(255, 255, 255, 0.9);
+    background-color: rgba(255, 255, 255, 0.8);
     padding: 30px;
+    width: 75%;
 }
 h1{
 margin-left: 20px;
@@ -124,4 +125,53 @@ color:white;
 footer{
     background-color: rgba(255, 255, 255, 0.9);
     font-size: large;
+}
+img{
+    width: 50%;
+}
+.skill-issue{
+    display: none;
+}
+
+@media screen and (max-width: 585px) {
+    main>div{
+        background-color: rgba(255, 255, 255, 0.6);
+        width: 100%;
+    }
+    table{
+        background-color: white;
+    }
+    p{
+        padding: 10px;
+    }
+    .container{
+        width: 100%;
+    }
+    table{
+        font-size: small;
+    }
+    
+    .rating{
+        font-size: small;
+    }
+    h1{
+        margin:auto;
+    }
+
+}
+
+@media screen and (max-width: 800px) {
+    iframe{
+        display: none;
+    }
+    .skill-issue{
+        display: block;
+    }
+    img{
+        width: 100%;
+    }
+    .float-right{
+        padding:0px;
+        float: none;
+    }
 }
