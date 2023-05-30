@@ -1,15 +1,18 @@
 body{
-    background-image: linear-gradient(45deg, rgb(255, 0, 0) , rgb(251, 255, 0), white)
+    
+    background-image: repeating-linear-gradient(45deg,#1a2980,#26d0ce);
 
 }
-
+nav{
+    border-bottom: black 3px solid;
+}
 nav a{
     padding: 10px;
     border-radius: 5px;
 }
 nav a:hover {
-    color: black !important;
-    background-color: whitesmoke;
+    background-color: rgb(212, 212, 212);
+    border: 1px black solid;
     transition-duration: 0.2s;
     text-decoration: underline solid black;
 }
@@ -43,10 +46,11 @@ img:hover{
     cursor: zoom-in;
 }
 .review-box{
-    background-color: rgb(240,240,240);
+    background-color: rgb(255, 255, 255);
     margin: 20px;
     vertical-align: middle;
     padding: 10px;
+    border: solid 1px black;
 }
 .rating{
     float: right;
@@ -89,3 +93,31 @@ button{
     text-decoration: black underline solid;
     font-weight: bolder;
 }
+#muck-steam{
+    background-color: #2a475e;
+    color:white;
+}
+#muck-steam:hover{
+    background-color: #243f55;
+    transition-duration: 0.2s;
+}
+#muck-youtube{
+background-color: red;
+color:white;
+}
+#muck-youtube:hover{
+    background-color: rgb(165, 2, 2);
+    transition-duration: 0.2s;
+}
+.pgtop{
+    background-color: rgba(172, 255, 47, 0.6);
+    border: 1px black solid;
+    margin-top: 20px;
+}
+.pgtop:hover{
+    background-color: rgba(172, 255, 47, 0.5);
+    border: 1px black solid;
+    color: black;
+    text-decoration: underline;
+}
+    
